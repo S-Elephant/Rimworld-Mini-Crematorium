@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/graphicData/texPath</xpath>
+    <value>
+        <texPath>MiniElectricCrematorium/MiniCrematorium</texPath>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/graphicData/drawSize</xpath>
+    <value>
+        <drawSize>(1,1)</drawSize>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/graphicData/shadowData/volume</xpath>
+    <value>
+        <volume>(0.70,0.70,0.70)</volume>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/graphicData/damageData/rect</xpath>
+    <value>
+        <rect>(0,0,0.5,0.5)</rect>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/size</xpath>
+    <value>
+        <size>(1,1)</size>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/comps/li[@Class="CompProperties_Glower"]/glowRadius</xpath>
+    <value>
+		<glowRadius>2</glowRadius>
+    </value>
+</Operation>
+
+</Patch>

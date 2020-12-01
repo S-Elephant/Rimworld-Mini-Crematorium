@@ -1,0 +1,19 @@
+<ModMetaData>
+	<name>Mini Crematorium</name>
+	<author>Squirting Elephant</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>SquirtingElephant.MiniCrematorium</packageId>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+	<description>Resizes the Electric Crematorium from 3x2 --> 1x1.
+	
+- Mod is XPath only. This is an extremely compatible mod.
+- Can safely be added to an existing game.
+- Before removing this mod from an existing game (just in case), please make sure that you destroyed all Vanilla Electric Crematoriums from this mod first and that you are not ordering the creation of new ones.</description>
+</ModMetaData>
